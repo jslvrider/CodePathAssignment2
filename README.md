@@ -1,7 +1,7 @@
 ## Flix Part 2
 
 ### User Stories
-"Video Walkthrough 1.gif"
+"Video Walkthrough 1"
 #### REQUIRED (10pts)
 
 - [ ] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
