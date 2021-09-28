@@ -1,7 +1,7 @@
 ## Flix Part 2
 
 ### User Stories
-https://github.com/jslvrider/CodePathAssignment2/blob/master/Video%20Walkthrough%201.gif?raw=true
+
 #### REQUIRED (10pts)
 
 - [ ] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
