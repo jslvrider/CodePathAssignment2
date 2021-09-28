@@ -3,6 +3,7 @@ package com.example.codepathassignment1.adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Parcel;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,6 +21,8 @@ import com.example.codepathassignment1.DetailActivity;
 import com.example.codepathassignment1.R;
 import com.example.codepathassignment1.models.Movie;
 
+
+import org.parceler.Parcels;
 
 import java.util.List;
 
@@ -88,6 +91,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                     // 2. Navigate to a new activity on tap
                     Intent i = new Intent(context, DetailActivity.class);
                     i.putExtra("title", movie.getTitle());
+                    i.putExtra("movie", Parcels.wrap(movie));
                     context.startActivity(i);
                 }
             });
